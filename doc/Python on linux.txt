@@ -1,0 +1,60 @@
+
+
+To start with python on Linux run de follow commands:
+
+$ sudo apt-get update
+$ sudo apt-get install python3 python3-venv python3-pip
+
+Get update de system and verify de versions still working as well: 
+
+$ sudo apt-get update
+$ sudo apt-get -y upgrade
+
+
+
+To verify if Python was successfully installed, 
+run the following command in the terminal:
+
+$ python3 --version / $ python3 -v
+
+xczzxzcz
+So, if you don't install pip yet :
+
+$ sudo apt-get install -y python3-pip
+
+
+To do so, just enter the following command, replacing the package_name with the name of the one you wish to install:
+
+$ pip3 install package_name
+
+
+Finally, it is important to install a series of packages to make your programming environment more consistent. To do so, use the command:
+
+$ sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+
+
+### Configuring a Python virtual environment on Ubuntu Linux:
+
+To create these environments, install a module called venv, which is present in the Python library. Then, proceed  with the installation of  venv with the following command:
+
+$ sudo apt-get install -y python3-venv
+
+
+To create new virtual environments for your project:
+
+$ mkdir directory_env
+$ cd directory_env
+
+
+Once in the directory where to create the new environments, create the first one using the venv module . To do so, follow the command:
+
+$ python -m venv 
+
+
+Salir de bash:
+
+$ source ~/.profile
+$ conda deactivate
+
+
+
