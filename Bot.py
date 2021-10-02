@@ -5,6 +5,7 @@ import time
 import datetime
 import numpy as np
 
+# Scalping Bot..
 # From here we start to write the code...
 
 cliente = Cliente(config.API_KEY, config.onfig.API_SECRET, tld='com')
